@@ -1,3 +1,8 @@
+*********Lab 1 : 26th aug,2019
+         
+***********Program***********   
+   
+   
 print ("Hi, I am Varsha Roxan")
 
 a = int(input("Enter the value of a:"))
@@ -54,3 +59,42 @@ else:
        x = y
        y = z
        iteration += 1
+
+
+         
+***********Output***********
+
+
+Python 3.7.3 (default, Apr  3 2019, 05:39:12) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+================== RESTART: /home/cs2016b117/varsha/test.py ==================
+Hi, I am Varsha Roxan
+Enter the value of a:10
+Enter the value of b:20
+Addition of 10 and 20 is 30
+Addition of 10 and 20 is 30
+5
+-1
+0.6666666666666666
+2
+0
+1.2
+20
+PYTHON PROGRAMMING
+java programming
+python
+18
+n
+python programming lab
+"CMR" "University"
+Enter the value of a:10
+Enter the value of b:20
+After swapping: 
+a = 20 
+b= 10
+Enter the value:5
+This Fibonacci sequence has 5 elements :
+0, 1, 1, 2, 3, 
+>>> 
