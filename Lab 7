@@ -1,0 +1,40 @@
+ 
+# import pandas and numpy 
+import pandas as pd 
+import numpy as np 
+  
+# series with numpy random.normal 
+ser3 = pd.Series(np.random.normal()) 
+print(ser3) 
+  
+# series with numpy random.normal 
+ser4 = pd.Series(np.random.normal(0.0, 1.0, 5)) 
+print("\n", ser4) 
+  
+# series with numpy random.rand 
+ser5 = pd.Series(np.random.rand(10)) 
+print("\n", ser5)
+
+
+output:
+0   -0.697377
+dtype: float64
+
+ 0   -1.548438
+1   -0.940855
+2   -0.378976
+3    0.562512
+4    2.255109
+dtype: float64
+
+ 0    0.389668
+1    0.047295
+2    0.911485
+3    0.514332
+4    0.603794
+5    0.484551
+6    0.100735
+7    0.060689
+8    0.899122
+9    0.256244
+dtype: float64
