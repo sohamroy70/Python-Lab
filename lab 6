@@ -1,0 +1,25 @@
+
+# Python code to illustrate Sending mail from  
+# your Gmail account  
+import smtplib 
+  
+# creates SMTP session 
+s = smtplib.SMTP('smtp.gmail.com', 587) 
+  
+# start TLS for security 
+s.starttls() 
+  
+# Authentication 
+s.login("varshar1397@gmail.com", "password") 
+  
+# message to be sent 
+message = """\
+Subject: Testing
+Hi
+"""
+  
+# sending the mail 
+s.sendmail("varshar1397@gmail.com", "varsha.16cs@cmr.edu.in", message) 
+  
+# terminating the session 
+s.quit() 
